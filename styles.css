@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+
+.header {
+	margin-top: 40px;
+	font-size: 60px;
+	text-align: center;
+	font-weight: 500;
+}
+.body {
+    align-items: center;
+    font-family: Montserrat, sans-serif ;
+	background-color: coral;
+}
+
+.grid {
+	width: 1120px;
+	height: 414px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: -260px;
+	margin-left: 450px;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid black 2px;
+	margin: 2px
+}
+
+.mole {
+	background-image: url("mole.png");
+	background-size: cover;
+}
+
+.text{
+	margin-top: 100px;
+	margin-left: 100px;
+}
